@@ -292,7 +292,7 @@ public class ControlFlow { //1-20 33
     }
 
     //menu
-    private static void menu() {
+    private static void showMenu() {
         System.out.println("+---+----------------------------------------+");
         System.out.println("|   |                  MENU                  |");
         System.out.println("+---+----------------------------------------+");
@@ -323,7 +323,7 @@ public class ControlFlow { //1-20 33
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int choice = -1;
-        menu();
+        showMenu();
         do {
             System.out.print("\nNhap lua chon cua ban (0-21): ");
             choice = sc.nextInt();

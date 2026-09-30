@@ -63,7 +63,7 @@ public class MethodPractices { //21-27
         System.out.println(value);
     }
 
-    private static void menu() {
+    private static void showMenu() {
         System.out.println("+---+----------------------------------------+");
         System.out.println("|   |                  MENU                  |");
         System.out.println("+---+----------------------------------------+");
@@ -81,7 +81,7 @@ public class MethodPractices { //21-27
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int choice = -1;
-        menu();
+        showMenu();
         do {
             System.out.print("\nNhap lua chon cua ban (0-7): ");
             choice = sc.nextInt();
